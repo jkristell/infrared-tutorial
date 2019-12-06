@@ -27,7 +27,7 @@ use infrared::{
 };
 
 // Sample rate
-const TIMER_FREQ: u32 = 40_000;
+const TIMER_FREQ: u32 = 20_000;
 
 // Our receivertype
 type Receiver = InfraredReceiver<PB8<Input<Floating>>, Rc6>;
