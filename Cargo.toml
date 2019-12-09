@@ -10,10 +10,7 @@ cortex-m = "0.6"
 cortex-m-rt = { version = "0.6.7" }
 panic-semihosting = "0.5"
 cortex-m-semihosting = "0.3.3"
-
-[dependencies.infrared]
-git = "https://github.com/jkristell/infrared"
-features = ["remotes", "embedded-hal"]
+infrared = "0.6"
 
 [profile.release]
 codegen-units = 1
